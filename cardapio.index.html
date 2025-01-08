@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="cardapio.css">
+</head>
+<body>
+    <section class="cardapio-conteiner" id="pedidos">
+        <div class="cardapio-content">
+         <h2>Menu de Pizzas</h2>
+            <ul>
+                <li class="cardapio-info">
+                    <span>Pizza de Calabresa - R$25,00</span>
+                    <button onclick="adicionarAoCarrinho('Pizza de Calabresa', 25)">Adicionar</button>
+                </li>
+                <li class="cardapio-info">
+                    <span>Pizza de Queijo - R$20,00</span>
+                    <button onclick="adicionarAoCarrinho('Pizza de Queijo', 20)">Adicionar</button>
+                </li>
+                <li class="cardapio-info">
+                    <span>Pizza de Frango - R$30,00</span>
+                    <button onclick="adicionarAoCarrinho('Pizza de Frango', 30)">Adicionar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="carrinho">
+            <h2 class="carrinhoTITULO">Seu Carrinho</h2>
+            <ul id="itensCarrinho"></ul>
+            <p>Total: R$ <span id="total">0</span>,00</p>
+            <button onclick="finalizarPedido()">Finalizar Pedido</button>
+        </section>
+    </main>
+           
+        </div>
+    </section>
+    <script src="cardapio.js"></script>
+</body>
+</html>

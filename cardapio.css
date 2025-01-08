@@ -1,0 +1,111 @@
+:root {
+    --vermelho: #ff5733;
+    --verde: #4caf50;
+    --amarelo-dourado: #ffd700;
+    --bege-claro: #f5f5dc;
+    --marrom-escuro: #8b4513;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza-escuro: #333333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(17, 17, 17, 0.2), rgba(20, 20, 20, 0.5)), url(pizzaria-images/fundo\ da\ tela.png);
+    color: var(--bege-claro);
+  
+}
+
+main {
+    padding: 2rem; 
+}
+
+section {
+    margin-bottom: 2.5rem;
+    background-color: transparent; 
+    color: var(--branco);
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 1.5rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    color: var(--bege-claro); 
+    font-weight: bolder;
+    font-size: 30px;
+    
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1.5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; 
+    border-bottom: 1px solid #e0e0e0; 
+    
+}
+
+li:last-child {
+    border-bottom: none; 
+}
+
+button {
+    background-color: #ff5733; 
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+button:hover {
+    background-color: #c44126; 
+    transform: scale(1.05); 
+}
+
+button:active {
+    transform: scale(0.95); 
+}
+
+#carrinho{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5dc; 
+    border: 1px solid #8b4513; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #4caf50;
+    
+}
+
+.carrinhoTITULO{
+    color: #4caf50;
+}
+
+#pedidos{
+    scroll-behavior: smooth; 
+  scroll-padding: 30px
+}
+  
+
+  
+
+
+
