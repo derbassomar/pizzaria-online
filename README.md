@@ -23,3 +23,10 @@ Este projeto é uma aplicação web para uma pizzaria chamada "Bella Italia". O 
 ## Imagens
 - Imagens de pizzas e ícones utilizados na interface.
 
+
+  ![Captura de tela 2025-01-09 113848](https://github.com/user-attachments/assets/aa6fc82a-ce49-481d-9d6c-f24a912ae9d1)
+![Captura de tela 2025-01-09 115951](https://github.com/user-attachments/assets/b9ccacc0-2a23-4d92-9857-5bf3d581aade)
+![Captura de tela 2025-01-08 163551](https://github.com/user-attachments/assets/9a66c9c4-d275-417b-8837-e5544bd73b7b)
+
+
+
